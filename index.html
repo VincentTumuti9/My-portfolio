@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CJ JONES | Personal Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sticky Navigation Bar -->
+    <header class="site-header">
+        <div class="logo"> Vincent</div>
+        <nav class="nav-links">
+            <a href="#about">About</a>
+            <a href="#hobbies">Interests</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main class="main-container">
+
+        <!-- 1. HERO / ABOUT SECTION -->
+        <section id="about" class="card-section hero-card">
+            <span class="badge">Code • Anime • Chill </span>
+            <h1>Hey, I'm Vincent </h1>
+            <p class="tagline">Building clean web projects & exploring favorite stories.</p>
+
+            <div class="profile-frame">
+                <img src="images/profile.jpg.webp" alt="Vinny profile image">
+            </div>
+
+            <p class="bio">
+                Welcome to my personal corner of the web! I'm passionate about web design, coding, and building cool projects from scratch. When I'm not writing code or staying active, I'm usually catching up on the latest anime releases and manga arcs.
+            </p>
+
+            <div class="action-row">
+                <a href="#bio-modal" class="action-btn">Quick Bio </a>
+                <a href="#contact" class="action-btn outline">Get in Touch </a>
+            </div>
+        </section>
+
+        <!-- PURE CSS MODAL: QUICK BIO -->
+        <div id="bio-modal" class="modal-overlay">
+            <div class="modal-box">
+                <a href="#about" class="close-btn">&times;</a>
+                <h2>More About Me </h2>
+                <p>I focus on creating modern, high-performance web layouts using clean HTML and CSS. I'm constantly learning new design techniques and experimenting with interactive styles.</p>
+                <a href="#about" class="modal-close-link">Close Window</a>
+            </div>
+        </div>
+
+        <!-- 2. INTERACTIVE INTERESTS TABS -->
+        <section id="hobbies" class="card-section">
+            <h2>WHAT DRIVES ME</h2>
+
+            <div class="tab-system">
+                <!-- Radio inputs for CSS-only tab control -->
+                <input type="radio" id="tab-dev" name="interest-tabs" checked>
+                <input type="radio" id="tab-sports" name="interest-tabs">
+                <input type="radio" id="tab-anime" name="interest-tabs">
+
+                <div class="tab-labels">
+                    <label for="tab-dev" class="tab-btn"> Web Dev</label>
+                    <label for="tab-sports" class="tab-btn"> Sports</label>
+                    <label for="tab-anime" class="tab-btn"> Anime</label>
+                </div>
+
+                <div class="tab-content-container">
+                    <div class="tab-content content-dev">
+                        <h3>Web Development</h3>
+                        <p>Crafting responsive HTML and CSS layouts from scratch with clean structure, modern styling, and subtle animations.</p>
+                    </div>
+                    <div class="tab-content content-sports">
+                        <h3>Outdoor & Sports</h3>
+                        <p>Staying active, testing out new skills, and constantly pushing for balance, agility, and progress in daily life.</p>
+                    </div>
+                    <div class="tab-content content-anime">
+                        <h3>Anime & Fiction</h3>
+                        <p>Following high-energy action series, compelling story arcs, unique art directions, and iconic character journeys.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. PROJECTS SHOWCASE SECTION -->
+        <section id="projects" class="card-section">
+            <h2>FEATURED WORK</h2>
+            <div class="projects-grid">
+
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <div class="card-header">
+                        <span class="card-tag">HTML / CSS</span>
+                        <h3>Skateboarding Brand Site</h3>
+                    </div>
+                    <p class="card-desc">A modern, responsive landing page created for a local street apparel and skate store featuring slick gallery cards.</p>
+                    <a href="#project-1-modal" class="project-btn">View Details </a>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <div class="card-header">
+                        <span class="card-tag">HTML / CSS</span>
+                        <h3>Grooming & Shaving Shop</h3>
+                    </div>
+                    <p class="card-desc">A sleek dark-mode product showcase built for a shaving studio featuring custom service cards and price tables.</p>
+                    <a href="#project-2-modal" class="project-btn">View Details </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- PURE CSS MODAL: PROJECT 1 -->
+        <div id="project-1-modal" class="modal-overlay">
+            <div class="modal-box">
+                <a href="#projects" class="close-btn">&times;</a>
+                <h2>Skateboarding Brand Site </h2>
+                <p>Designed with dynamic grid containers, custom dark aesthetics, and glowing cyan hover highlights for maximum visual pop.</p>
+                <a href="#projects" class="modal-close-link">Back to Projects</a>
+            </div>
+        </div>
+
+        <!-- PURE CSS MODAL: PROJECT 2 -->
+        <div id="project-2-modal" class="modal-overlay">
+            <div class="modal-box">
+                <a href="#projects" class="close-btn">&times;</a>
+                <h2>Grooming Shop Showcase </h2>
+                <p>Built with sticky navigation bars, responsive card grids, and interactive button styles using standard HTML and CSS.</p>
+                <a href="#projects" class="modal-close-link">Back to Projects</a>
+            </div>
+        </div>
+
+        <!-- 4. CONTACT SECTION -->
+        <section id="contact" class="card-section">
+            <h2>LET'S CONNECT</h2>
+            <p class="section-sub">Have a project idea or just want to chat about code or anime?</p>
+
+            <div class="contact-wrapper">
+                
+                <!-- Contact Info Card -->
+                <div class="contact-info-card">
+                    <h3>Contact Information</h3>
+                    <p>Feel free to reach out directly through email or social platforms.</p>
+                    
+                    <div class="info-list">
+                        <div class="info-item">
+                            <span class="info-icon"></span>
+                            <div>
+                                <strong>Email</strong>
+                                <p>saintvinny4@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon"></span>
+                            <div>
+                                <strong>Location</strong>
+                                <p>Nyeri, Kenya</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon"></span>
+                            <div>
+                                <strong>Status</strong>
+                                <p>Available for projects</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com" target="_blank" class="social-btn">GitHub</a>
+                        <a href="#" class="social-btn">Netlify</a>
+                    </div>
+                </div>
+
+                <!-- Interactive CSS Form -->
+                <form action="#submitted" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" required placeholder=" ">
+                        <label for="name">Your Name</label>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" id="email" required placeholder=" ">
+                        <label for="email">Your Email</label>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea id="message" rows="4" required placeholder=" "></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Send Message </button>
+                </form>
+
+            </div>
+
+            <!-- CSS-only Submission Confirmation -->
+            <div id="submitted" class="submission-success">
+                <p> Thanks for reaching out! Your message was received.</p>
+                <a href="#contact" class="reset-link">Send another message</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Vinny. Built with pure HTML & CSS.</p>
+    </footer>
+
+</body>
+</html>
